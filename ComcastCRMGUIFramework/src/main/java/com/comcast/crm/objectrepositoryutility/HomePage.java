@@ -18,6 +18,14 @@ public class HomePage {
 	
 	@FindBy(linkText="Contacts")
 	private WebElement contactlink;
+	
+	@FindBy(linkText="Products")
+	private WebElement productlink;
+
+
+	public WebElement getProductlink() {
+		return productlink;
+	}
 
 	@FindBy(linkText="Campaigns")
 	private WebElement campaignlink;
